@@ -32,7 +32,6 @@ fi
 # Variables
 PATH_CONFIG_SSHD="/etc/ssh/sshd_config"
 
-USER=`logname`
 NEW_PORT=`shuf -i 1000-65535 -n 1` #Attribut a new port for SSH
 #echo $NEW_PORT
 # Scripts
